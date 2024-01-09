@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: 15px solid rgb(68, 67, 67);
+    letter-spacing: 1px;
+    background-color:rgb(236, 232, 232);
+    color: black;
+}
+
+header{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* flex-direction: column; */
+}
+
+.pm_img{
+    border-radius: 40%;
+    /* border: 2px solid ; */
+    height: 400px;
+    width: 300px;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.head_text{
+    margin-top: 14rem;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10rem;
+    color:black;
+}
+
+.designation{
+    font-size: 25px;
+    margin-left: 20rem;
+    margin-top: 0.5rem;
+}
+
+main{
+    margin: 5rem 3rem;
+}
+
+h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+h3{
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+main p{
+    font-size: 1.1rem;
+    
+}
+
+footer{
+    margin-left: 62%;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+
+}
+
+footer a{
+    color: blue;
+}
